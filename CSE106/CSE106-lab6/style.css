@@ -1,0 +1,31 @@
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    }
+
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 10px 0px;
+    }
+        
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 10px 0px;
+    }
+
+.row3 {
+    display: flex;
+    justify-content: left;
+    background-color: lightblue;
+    padding: 10px 0px;
+    }
+
+#success_record, #success_grade, #success_delete {
+    color: red;
+    }
