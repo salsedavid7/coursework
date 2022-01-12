@@ -1,0 +1,10 @@
+shoe
+pencil
+eraser
+candle
+house
+car
+water
+phone
+desk
+notebook
