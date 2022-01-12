@@ -1,0 +1,9 @@
+body {background-color: lightgray;}
+h1 {
+    color:blue;
+    font-style: arial;
+    font-size: 35px;
+    text-align: left;
+    margin: auto;
+    padding: 0%;
+}

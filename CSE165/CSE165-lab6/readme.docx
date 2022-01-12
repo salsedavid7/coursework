@@ -1,0 +1,5 @@
+question 1:g++ question1.cpp -o q1
+question2; g++ question2.cpp -o q2
+g++ question3.cpp -o q3
+g++ question5.cpp -o q5
+g++ question6.cpp -o q6
