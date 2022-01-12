@@ -1,1 +1,1 @@
-# all the upper division coursework I have completed thus far
+# all the upper division labs I have completed thus far
