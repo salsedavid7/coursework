@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head></head>
+   <body>
+
+      <h3>
+         <a href = "{{ url_for('grades') }}">Home</a>
+      </h3>
+
+      <hr/>
+      {%- for message in get_flashed_messages() %}
+         {{ message }}
+      {%- endfor %}
+
+      <h3> <u>Search, add, delete, or edit from the Student Database:</u></h3>
+      <h3><a href = "{{ url_for('search') }}">Search Student
+         </a></h3>
+
+      <h3><a href = "{{ url_for('new') }}">Add Student
+         </a></h3>
+
+      <h3><a href = "{{ url_for('edit') }}">Edit Student
+         </a></h3>
+
+      <h3><a href = "{{ url_for('delete') }}">Delete Student
+         </a></h3>
+         <div></div>
+         <br>
+         
+         <h3> <u>Student Database</u> </h3>
+         
+      <table>
+         <thead>
+            <tr>
+               <th>Name</th>
+               <th>Grade</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            {% for student in students %}
+               <tr>
+                  <td>{{ student.name }}</td>
+                  <td>{{ student.grade }}</td>
+
+               </tr>
+            {% endfor %}
+         </tbody>
+      </table>
+   </body>
+</html>
